@@ -31,10 +31,10 @@
 
     <h2 class="new_book">New Book</h2>
   <%= form_with model: @book, url: '/books', method: :post do |f| %>
-    <h4>Title</h4>
+    <h6>Title</h6>
     <%= f.text_field :title %>
 
-    <h4>Body</h4>
+    <h6>Body</h6>
     <%= f.text_area :body %>
 
     <%= f.submit 'Create Book' %>
