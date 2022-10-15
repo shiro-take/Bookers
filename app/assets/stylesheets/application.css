@@ -64,3 +64,8 @@ input {
 textarea {
   margin-bottom: 10px
 }
+
+/*show.html.rb*/
+.show_text {
+  margin: 35px;
+}
