@@ -69,3 +69,7 @@ textarea {
 .show_text {
   margin: 35px;
 }
+
+.success {
+  color: green;
+}
