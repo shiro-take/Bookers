@@ -65,6 +65,11 @@ textarea {
   margin-bottom: 10px
 }
 
+.error_message {
+  margin: 30px 0 30px 15px;
+  color: red;
+}
+
 /*show.html.rb*/
 .show_text {
   margin: 35px;

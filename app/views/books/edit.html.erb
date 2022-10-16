@@ -1,5 +1,17 @@
 <h1>Editing Book</h1>
 
+<div class="error_message">
+  <% if @book.errors.any? %>
+    <%= @book.errors.count %> errors occurred
+      <ul>
+        <% @book.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+  <% end %>
+</div>
+
+
 <%= form_with model: @book, url: book_path(@book.id), method: :patch do |f| %>
 
   <h6>Title</h6>
